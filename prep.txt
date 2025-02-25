@@ -1,0 +1,19 @@
+LibraryBookManagement:
+Book class w/ String title, String author, boolean isAvailable, int checksOut
+ArrayList of Book (s)
+check a book out with its index, which sets its availability to false and increments its times checked out by 1
+for (Book i : books) {//print out book details}
+
+InventoryManagementSystem:
+Product class w/ String name, int id, int quantity, int price
+ArrayList of Product (s)
+restock via products.set(index, products.get(index).quantity = value)
+for (Product i : products) {if (products.get(index).quantity<5) {//print product}}
+product print includes products.get(index).quantity*products.get(index).price
+
+QuizApplication:
+Question class w/ String questionText, ArrayList<String> options, int correctAnswerIndex, int difficulty
+ArrayList of Question (s)
+import java.util.Collections to use Collections.shuffle for question order randomisation
+questions presented with series of print statements and a for (String i : questions.get(index).options) {System.out.println(i)}
+on answer: if (answer==questions.get(index).correctAnswerIndex) {score++; //print success} else {//print failure}
