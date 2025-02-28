@@ -44,7 +44,4 @@ public class InventoryManagementSystem {
             System.out.println(i.id + ": " + i.name + " | " + i.quantity + " units | $" + i.price + "/unit | $" + i.price*i.quantity + " total" + (i.quantity<5 ? " | LOW STOCK" : ""));
         }
     }
-    public static void restock(ArrayList<Product> p) {
-
-    }
 }
