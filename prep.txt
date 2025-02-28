@@ -7,7 +7,7 @@ for (Book i : books) {//print out book details}
 InventoryManagementSystem:
 Product class w/ String name, int id, int quantity, int price
 ArrayList of Product (s)
-restock via products.set(index, products.get(index).quantity = value)
+restock via products.set(index, new Product(/* setup */))
 for (Product i : products) {if (products.get(index).quantity<5) {//print product}}
 product print includes products.get(index).quantity*products.get(index).price
 
